@@ -1,0 +1,26 @@
+{
+	"num_rows": 2,
+	"num_columns": 3,
+	"room_size": 8,
+	"agent": {"room": [0, 0], "pos": [1, 1], "dir": 0},
+	"objects": 
+		[
+			{"i": 0, "j": 0, "type": "ball", "color": "red", "pos": [3, 1]},
+			{"i": 0, "j": 0, "type": "key", "color": "yellow", "pos": [2, 3]},
+			{"i": 0, "j": 0, "type": "ball", "color": "red", "pos": [2, 5]},
+			{"i": 1, "j": 0, "type": "box", "color": "green", "pos": [1, 1]},
+			{"i": 1, "j": 0, "type": "ball", "color": "red", "pos": [3, 3]},
+			{"i": 2, "j": 0, "type": "ball", "color": "red", "pos": [3, 3]},
+			{"i": 0, "j": 1,"type": "ball", "color": "red", "pos": [3, 3]},	
+			{"i": 1, "j": 1, "type": "ball", "color": "green", "pos": [3, 3]},
+			{"i": 2, "j": 1, "type": "ball", "color": "blue", "pos": [3, 3]}
+		],
+	"doors":
+		[
+			{"i": 0, "j": 0, "idx": 0, "color": "yellow", "locked": true, "pos": 1},
+			{"i": 0, "j": 0, "idx": 1, "color": "red", "locked": false, "pos": 2},
+			{"i": 1, "j": 0, "idx": 1, "color": "red", "locked": false, "pos": 2},
+			{"i": 1, "j": 1, "idx": 0, "color": "red", "locked": false, "pos": 5}
+		],
+	"instr": "go to a green ball and go to a red door after you go to a blue ball and put a green box next to the red door on your right"
+}
