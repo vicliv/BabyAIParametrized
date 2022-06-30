@@ -1,0 +1,1 @@
+https://github.com/rodrigodelazcano/gym-minigrid/tree/fix_setup
